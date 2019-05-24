@@ -1,0 +1,10 @@
+.response {
+    padding: 10px;
+    background:#ccc;
+}
+.hide {
+    display:none;
+}
+.form{
+    width: 400px;
+}

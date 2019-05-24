@@ -1,0 +1,15 @@
+{% extends "base.html.twig" %}
+
+{% block body %}
+    <h1>Check Geo Ip</h1>
+    <form class="form">
+        <label>
+            Specify IP address
+            <input id="ip" type="text" value="" placeholder="IP address" size="20" maxlength="20"/>
+        </label>
+        <button id="check-ip-button" type="button">Check</button>
+        <br/>
+        <br/>
+        <div class="response hide" id="response"></div>
+    </form>
+{% endblock %}
